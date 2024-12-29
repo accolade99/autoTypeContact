@@ -7,7 +7,7 @@ footer{
 }
 p{
     color: white; font-size: 12px; text-align: center; letter-spacing: 0.7px;
-    margin-top: -80px;
+    margin-top: -10px;
 }
 
 h1 {
@@ -29,7 +29,7 @@ span {
 .container {
     display: flex;
     justify-content: center;
-    margin: 200px 20px;
+    margin: 150px 20px;
 }
 
 @keyframes glow {
