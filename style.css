@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(34, 18, 18); font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+    display: block; color: white; font-size: 8px; text-align: center;
+     margin-top: 165px; letter-spacing: 0.7px;
+}
+p{
+    color: white; font-size: 12px; text-align: center; letter-spacing: 0.7px;
+    margin-top: -80px;
+}
+
+h1 {
+    color: white; font-size: 30px;
+    /* text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff,
+                 0 0 30px #fff; */
+}
+
+span {
+    color: aqua;
+    text-shadow: 0 0 5px #0ff,
+                 0 0 10px #0ff,
+                 0 0 15px #0ff,
+                 0 0 20px #0ff;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 200px 20px;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px #0ff,
+                     0 0 10px #0ff,
+                     0 0 15px #0ff;
+    }
+    to {
+        text-shadow: 0 0 10px #0ff,
+                     0 0 15px #0ff,
+                     0 0 20px #0ff,
+                     0 0 50px #0ff;
+    }
+}
+
+.typed-cursor {
+    color: white;
+    opacity: 1;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    h1 {
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (min-width: 769px) {
+    h1 {
+    font-size: 30px;
+}
+}
